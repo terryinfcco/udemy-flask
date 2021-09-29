@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Control Flow</title>
+</head>
+<body>
+
+    <!-- example of passing a list and doing something pythonic with it -->
+    {% for pup in puppies %}
+    <!-- example of using an if statement -->
+        {% if pup == 'Rufus' %}
+            <li>The Amazing {{ pup }}</li>
+        {% else %}
+            <li>{{ pup }}</li>
+        {% endif %}
+    {% endfor %}    
+    <h1>{{ letters }}</h1>
+    <!-- Entire for loop must be inside the ul tags. -->
+    <ul>
+        {% for item in letters %}
+        <li><h3>{{ item }}</h3></li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>

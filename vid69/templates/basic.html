@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Variables</title>
+</head>
+<body>
+    <!-- my_variable passed from basic.py -->
+    <h1>Hello! {{ my_variable }}</h1>
+    <!-- example of passing a list and doing something pythonic with it -->
+    <h1> {{ letters }} </h1>
+    <h1>{{ letters[0] }}</h1>
+    <!-- passing a dictionary and selecting something from it -->
+    <h1>{{ pup_dictionary }}</h1>
+    <h1>{{ pup_dictionary['pup_name'] }}</h1>
+</body>
+</html>
