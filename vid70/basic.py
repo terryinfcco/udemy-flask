@@ -1,4 +1,4 @@
-# Video 68 Template Variables
+# Video 70 Control Flow
 # Flask uses Jinja templates
 # Control Flow statements are surrounded by curly brace, percent {% loop %}
 

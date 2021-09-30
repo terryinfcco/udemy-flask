@@ -1,4 +1,4 @@
-# Video 68 Template Variables
+# Video 69 Template Variables
 # Flask uses Jinja templates
 # variables are surrounded by double curly braces {{ some_variable }}
 # variables are standard python - can be lists, dictionaries, etc.
